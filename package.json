@@ -1,0 +1,22 @@
+{
+  "name": "afk-bot-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Password-protected Minecraft AFK bot web panel",
+  "main": "afk.js",
+  "scripts": {
+    "start": "node afk.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "mineflayer": "^4.31.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "vec3": "^0.1.10",
+    "http-proxy": "^1.18.1",
+    "prismarine-viewer": "^1.32.0"
+  }
+}
